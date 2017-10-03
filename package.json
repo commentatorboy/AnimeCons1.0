@@ -1,0 +1,27 @@
+{
+  "name": "animecons1",
+  "version": "0.0.1",
+  "description": "With jquery and bootstrap",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commentatorboy/AnimeCons1.0.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "jquer"
+  ],
+  "author": "Hamun and Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/commentatorboy/AnimeCons1.0/issues"
+  },
+  "homepage": "https://github.com/commentatorboy/AnimeCons1.0#readme"
+}
