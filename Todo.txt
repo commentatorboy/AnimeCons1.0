@@ -1,10 +1,12 @@
 Implementations TODO:
  - individual org/conv page
  - Json file content
+ - Write bootstrap
+ - write jquery search
 
 Questions:
 
-To copy from index to other pages:
+To copy from index to other pages: (use gulp perhaps)
 - navbar
 - jquery tag
 - bootstrap tag

@@ -144,6 +144,12 @@ li a {
 
 /* ------------------- eventcard ------------------- */
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .eventcard, .organisationcard {
   width: 80%;
   margin: auto;
@@ -186,6 +192,7 @@ li a {
   display: none;
 }
 
+
 @media screen and (min-width:600px) {
 
   .organisationsection {
@@ -215,6 +222,7 @@ li a {
     width: 31%;
     margin: 1% 2% 1% 0%;
   }
+
 }
 
 /* ---------------------- map ---------------------- */
