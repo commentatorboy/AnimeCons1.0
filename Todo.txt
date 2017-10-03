@@ -2,8 +2,9 @@ Implementations TODO:
  - individual org/conv page
  - Json file content
 
- Options:
-
- - vue.js
-
 Questions:
+
+To copy from index to other pages:
+- navbar
+- jquery tag
+- bootstrap tag
