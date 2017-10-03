@@ -1,0 +1,24 @@
+var data = {
+    "conventions": [{
+            "id": "genki",
+            "url": "925",
+            "sqft": "1100",
+            "num_of_beds": "2",
+            "num_of_baths": "2.0"
+        },
+        {
+            "id": "genki",
+            "url": "925",
+            "sqft": "1100",
+            "num_of_beds": "2",
+            "num_of_baths": "2.0"
+        },
+        {
+            "id": "jpopcon",
+            "url": "1425",
+            "sqft": "1900",
+            "num_of_beds": "4",
+            "num_of_baths": "2.5"
+        }
+      ]
+}
