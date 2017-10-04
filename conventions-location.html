@@ -3,154 +3,197 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Anime cons - conventions - location</title>
+  <title>Anime cons - index</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main-bootstrap.css">
   <link rel="stylesheet" href="css/colorsheme.min.css">
+  <link rel="stylesheet" href="css/navbar.min.css">
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li id="menubutton">Menu</li>
-      <li>
-        <ul>
-          <li><a href="index.html">Frontpage</a></li>
-          <li aria-hidden="true" id="organisationsbutton">
-            <a href="organisations-alphabet.html"><i></i>Organisations</a>
-            <ul id="subnav-org">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Frontpage<span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organisations <span class="caret"></span></a>
+            <ul class="dropdown-menu">
               <li><a href="organisations-location.html">Ordered by location</a></li>
               <li><a href="organisations-alphabet.html">Ordered alphabetically</a></li>
             </ul>
           </li>
-          <li aria-hidden="true" id="conventionsbutton">
-            <a href="conventions-date.html"><i></i>Conventions</a>
-            <ul id="subnav-conv">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conventions<span class="caret"></span></a>
+            <ul class="dropdown-menu">
               <li><a href="conventions-location.html">Ordered by location</a></li>
               <li><a href="conventions-date.html">Ordered by date</a></li>
               <li><a href="conventions-alphabet.html">Ordered alphabetically</a></li>
             </ul>
           </li>
-          <li><a href="map.html">Map</a></li>
+          <li class=""><a href="map.html">Map<span class="sr-only">(current)</span></a></li>
+
         </ul>
-      </li>
-      <li>
-        <div>
-          <input id="mySearch" type="search" name="q" placeholder="Search">
-          <ul id="searchoptions">
-          </ul>
-        </div>
-      </li>
-    </ul>
+
+
+        <ul class="nav navbar-nav navbar-right">
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-info">Search</button>
+          </form>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
   </nav>
+  <article class="text-center">
+    <h1>Danish anime conventions overview - By location</h1>
+    <p>There are many anime conventions in Denmark, but this page gives you an easy overview.<br>This way you can plan your conventions without too much effort.</p>
 
-  <article>
-      <h1>Danish anime conventions overview - By location</h1>
-      <p>There are many anime conventions in Denmark, but this page gives you an easy overview.<br>This way you can plan your conventions without too much effort.</p>
-
-      <section>
-        <h2>In Zealand</h2>
-        <div>
-          <article>
-            <div>
-              <h4>Name</h4>
-              <h4>Date</h4>
-            </div>
-            <div>
-              <section>
-                <h4>general info</h4>
-                <p>address/lokation</p>
-                <p><a href="#">link</a></p>
-                <p> description</p>
-                <input type="button" value="Read more">
-              </section>
-              <div>
-                <img src="images/placeholder.svg" alt="Some picture here">
+    <section>
+      <h2>In Zealand</h2>
+      <article class="text-center col-md-12 eventbody">
+        </div>
+        <div class="col-md-4">
+          <article class="col-md-10 col-md-offset-1 eventcard">
+            <div class="row">
+              <div class="col-md-12 eventheader">
+                <div class="col-md-6">
+                  <h4>Name</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4>general info</h4>
+                </div>
               </div>
             </div>
-          </article>
-
-          <article>
-            <div>
-              <h4>Name</h4>
-              <h4>Date</h4>
-            </div>
-            <div>
-              <section>
-                <h4>general info</h4>
+            <div class="row">
+              <div class="col-md-8">
                 <p>address/lokation</p>
                 <p><a href="#">link</a></p>
                 <p> description</p>
                 <input type="button" value="Read more">
-              </section>
-              <div>
-                <img src="images/placeholder.svg" alt="Some picture here">
               </div>
-            </div>
-          </article>
-
-          <article>
-            <div>
-              <h4>Name</h4>
-              <h4>Date</h4>
-            </div>
-            <div>
-              <section>
-                <h4>general info</h4>
-                <p>address/lokation</p>
-                <p><a href="#">link</a></p>
-                <p> description</p>
-                <input type="button" value="Read more">
-              </section>
-              <div>
-                <img src="images/placeholder.svg" alt="Some picture here">
-              </div>
-            </div>
-          </article>
-
-          <article>
-            <div>
-              <h4>Name</h4>
-              <h4>Date</h4>
-            </div>
-            <div>
-              <section>
-                <h4>general info</h4>
-                <p>address/lokation</p>
-                <p><a href="#">link</a></p>
-                <p> description</p>
-                <input type="button" value="Read more">
-              </section>
-              <div>
-                <img src="images/placeholder.svg" alt="Some picture here">
+              <div class="col-md-4">
+                <img class="img-responsive" src="images/placeholder.svg" alt="Some picture here">
               </div>
             </div>
           </article>
         </div>
-      </section>
+        <div class="col-md-4">
+          <article class="col-md-10 col-md-offset-1 eventcard">
+            <div class="row">
+              <div class="col-md-12 eventheader">
+                <div class="col-md-6">
+                  <h4>Name</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4>general info</h4>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <p>address/lokation</p>
+                <p><a href="#">link</a></p>
+                <p> description</p>
+                <input type="button" value="Read more">
+              </div>
+              <div class="col-md-4">
+                <img class="img-responsive" src="images/placeholder.svg" alt="Some picture here">
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="col-md-10 col-md-offset-1 eventcard">
+            <div class="row">
+              <div class="col-md-12 eventheader">
+                <div class="col-md-6">
+                  <h4>Name</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4>general info</h4>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <p>address/lokation</p>
+                <p><a href="#">link</a></p>
+                <p> description</p>
+                <input type="button" value="Read more">
+              </div>
+              <div class="col-md-4">
+                <img class="img-responsive" src="images/placeholder.svg" alt="Some picture here">
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="col-md-10 col-md-offset-1 eventcard">
+            <div class="row">
+              <div class="col-md-12 eventheader">
+                <div class="col-md-6">
+                  <h4>Name</h4>
+                </div>
+                <div class="col-md-6">
+                  <h4>general info</h4>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <p>address/lokation</p>
+                <p><a href="#">link</a></p>
+                <p> description</p>
+                <input type="button" value="Read more">
+              </div>
+              <div class="col-md-4">
+                <img class="img-responsive" src="images/placeholder.svg" alt="Some picture here">
+              </div>
+            </div>
+          </article>
+        </div>
+      </article>
+    </section>
 
-      <section>
-        <h2>In Funen</h2>
-      </section>
+    <section>
+      <h2>In Fyn</h2>
+    </section>
+    <section>
+      <h2>In Zealand</h2>
+    </section>
 
-      <section>
-        <h2>In Jutland</h2>
-      </section>
+    <footer class="text-center">
+      <p>Made by: Thomas Goris, Hamun Farzinia.</p>
+      <p>Copyright: Thomas Goris, Hamun Farzinia.</p>
+      <p>Contact: <a href="https://github.com/commentatorboy/AnimeCons">Our github</a></p>
+    </footer>
 
-    </article>
+    <script type="text/javascript" src="javascript/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 
-  <footer>
-    <p>Made by: Thomas Goris, Hamun Farzinia.</p>
-    <p>Copyright: Thomas Goris, Hamun Farzinia.</p>
-    <p>Contact: <a href="https://github.com/commentatorboy/AnimeCons">Our github</a></p>
-  </footer>
-
-
-  <script type="text/javascript" src="javascript/navigation.js"></script>
-  <script type="text/javascript" src="javascript/styleselector.js"></script>
-  <script type="text/javascript" src="search_content.json"></script>
-  <script type="text/javascript" src="javascript/search.js"></script>
+    <script type="text/javascript" src="javascript/navigation.js"></script>
+    <script type="text/javascript" src="javascript/styleselector.js"></script>
+    <script type="text/javascript" src="search_content.json"></script>
+    <script type="text/javascript" src="javascript/search.js"></script>
 </body>
 
 </html>

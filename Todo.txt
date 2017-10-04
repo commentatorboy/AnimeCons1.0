@@ -1,8 +1,8 @@
 Implementations TODO:
- - individual org/conv page
+ - individual org/conv page (make a template and load the different json information)
  - Json file content
  - Write bootstrap
- - write jquery search
+ - write jquery search (might use library)
 
 Questions:
 

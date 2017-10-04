@@ -7,10 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/main-bootstrap.css">
   <link rel="stylesheet" href="css/colorsheme.min.css">
-
+  <link rel="stylesheet" href="css/navbar.min.css">
 </head>
 
 <body>
@@ -52,29 +51,32 @@
 
 
         <ul class="nav navbar-nav navbar-right">
-          <form class="navbar-form navbar-left">
+          <li class="navbar-form navbar-left">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Search">
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
+            <button type="submit" class="btn btn-info">Search</button>
+          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
   </nav>
-  <article class="text-center col-md-12 eventbody">
+  <div class="text-center col-md-12 eventbody">
     <h1>Welcome to Anime cons</h1>
     <h2>Your quick overview of the danish anime conventions</h2>
     <h3>Upcoming events</h3>
 
-    </div>
     <article class="col-md-8 col-md-offset-2 eventcard">
       <div class="row">
         <div class="col-md-12 eventheader">
-          <h4>Media heading</h4>
-          <h4>general info</h4>
+          <div class="col-md-6">
+            <h4>Name</h4>
+          </div>
+          <div class="col-md-6">
+            <h4>general info</h4>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -92,8 +94,12 @@
     <article class="col-md-8 col-md-offset-2 eventcard">
       <div class="row">
         <div class="col-md-12 eventheader">
-          <h4>Media heading</h4>
-          <h4>general info</h4>
+          <div class="col-md-6">
+            <h4>Name</h4>
+          </div>
+          <div class="col-md-6">
+            <h4>general info</h4>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -107,9 +113,33 @@
         </div>
       </div>
     </article>
-  </article>
+    <article class="col-md-8 col-md-offset-2 eventcard">
+      <div class="row">
+        <div class="col-md-12 eventheader">
+          <div class="col-md-6">
+            <h4>Name</h4>
+          </div>
+          <div class="col-md-6">
+            <h4>general info</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <p>address/lokation</p>
+          <p><a href="#">link</a></p>
+          <p> description</p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/placeholder.svg" alt="Some picture here">
+        </div>
+      </div>
+    </article>
+  </div>
 
-  <footer>
+
+
+  <footer class="text-center">
     <p>Made by: Thomas Goris, Hamun Farzinia.</p>
     <p>Copyright: Thomas Goris, Hamun Farzinia.</p>
     <p>Contact: <a href="https://github.com/commentatorboy/AnimeCons">Our github</a></p>

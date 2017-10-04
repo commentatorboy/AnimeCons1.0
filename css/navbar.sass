@@ -1,0 +1,71 @@
+/* Made with https://work.smarchal.com/twbscolor/3.3.7/css/e74c3cc0392becf0f1ffbbbc0
+  This is to change the color scheme of the navbar in bootstrap
+  Remember to NOT INCLUDE bootstrap-theme.css if you use this - Hamun
+ */
+$bgDefault      : #617073
+$bgHighlight    : #7a93ac
+$colDefault     : #92bcea
+$colHighlight   : #afb3f7
+$dropDown       : true
+.navbar-default
+  background-color: $bgDefault
+  border-color: $bgHighlight
+  .navbar-brand
+    color: $colDefault
+    &:hover, &:focus
+      color: $colHighlight
+  .navbar-text
+    color: $colDefault
+  .navbar-nav
+    > li
+      > a
+        color: $colDefault
+        &:hover, &:focus
+          color: $colHighlight
+      @if $dropDown
+        > .dropdown-menu
+          background-color: $bgDefault
+          > li
+            > a
+              color: $colDefault
+              &:hover, &:focus
+                color: $colHighlight
+                background-color: $bgHighlight
+            &.divider
+              background-color: $bgHighlight
+    @if $dropDown
+      .open .dropdown-menu > .active
+        > a, > a:hover, > a:focus
+          color: $colHighlight
+          background-color: $bgHighlight
+    > .active
+      > a, > a:hover, > a:focus
+        color: $colHighlight
+        background-color: $bgHighlight
+    > .open
+      > a, > a:hover, > a:focus
+        color: $colHighlight
+        background-color: $bgHighlight
+  .navbar-toggle
+    border-color: $bgHighlight
+    &:hover, &:focus
+      background-color: $bgHighlight
+    .icon-bar
+      background-color: $colDefault
+  .navbar-collapse,
+  .navbar-form
+    border-color: $colDefault
+  .navbar-link
+    color: $colDefault
+    &:hover
+      color: $colHighlight
+@media (max-width: 767px)
+  .navbar-default .navbar-nav .open .dropdown-menu
+    > li > a
+      color: $colDefault
+      &:hover, &:focus
+        color: $colHighlight
+    > .active
+      > a, > a:hover, > a:focus
+        color: $colHighlight
+        background-color: $bgHighlight
